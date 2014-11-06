@@ -1,0 +1,137 @@
+{
+  "source": {
+    "author": [
+      {
+        "name": "Joshua Keating",
+        "website": "http://www.slate.com/authors.joshua_keating.html",
+        "bio": "Joshua Keating is a staff writer at Slate focusing on international affairs and writes the World blog."
+      },
+      {
+        "name": "Chris Kirk",
+        "website": "http://www.slate.com/authors.chris_kirk.html",
+        "bio": "Chris Kirk is Slate's interactives editor."
+      }
+    ],
+    "original": "http://www.slate.com/blogs/the_world_/2014/07/17/the_middle_east_friendship_chart.html",
+    "disclaimer": "This data was compiled and probably owned/licensed by Slate. Here we're just remixing it. Use at own risk."
+  },
+  "entities": [
+    "Al Qaida",
+    "Egypt",
+    "Hamas",
+    "Hezbollah",
+    "Iran",
+    "Iraq",
+    "ISIS",
+    "Israel",
+    "Palestinian Authority",
+    "Saudi Arabia",
+    "Syria",
+    "Turkey",
+    "United States"
+  ],
+  "pairs": {
+    "Al Qaida": {
+      "Egypt": "enemy",
+      "Hamas": "complicated",
+      "Hezbollah": "enemy",
+      "Iran": "complicated",
+      "Iraq": "enemy",
+      "ISIS": "enemy",
+      "Israel": "enemy",
+      "Palestinian Authority": "enemy",
+      "Saudi Arabia": "enemy",
+      "Syria": "enemy",
+      "Turkey": "enemy",
+      "United States": "enemy"
+    },
+    "Egypt": {
+      "Hamas": "enemy",
+      "Hezbollah": "enemy",
+      "Iran": "complicated",
+      "Iraq": "friend",
+      "ISIS": "enemy",
+      "Israel": "friend",
+      "Palestinian Authority": "complicated",
+      "Saudi Arabia": "friend",
+      "Syria": "enemy",
+      "Turkey": "enemy",
+      "United States": "friend"
+    },
+    "Hamas": {
+      "Hezbollah": "complicated",
+      "Iran": "complicated",
+      "Iraq": "complicated",
+      "ISIS": "enemy",
+      "Israel": "enemy",
+      "Palestinian Authority": "complicated",
+      "Saudi Arabia": "complicated",
+      "Syria": "enemy",
+      "Turkey": "friend",
+      "United States": "enemy"
+    },
+    "Hezbollah": {
+      "Iran": "friend",
+      "Iraq": "friend",
+      "ISIS": "enemy",
+      "Israel": "enemy",
+      "Palestinian Authority": "complicated",
+      "Saudi Arabia": "enemy",
+      "Syria": "friend",
+      "Turkey": "complicated",
+      "United States": "enemy"
+    },
+    "Iran": {
+      "Iraq": "friend",
+      "ISIS": "enemy",
+      "Israel": "enemy",
+      "Palestinian Authority": "complicated",
+      "Saudi Arabia": "enemy",
+      "Syria": "friend",
+      "Turkey": "enemy",
+      "United States": "enemy"
+    },
+    "Iraq": {
+      "ISIS": "enemy",
+      "Israel": "enemy",
+      "Palestinian Authority": "friend",
+      "Saudi Arabia": "enemy",
+      "Syria": "friend",
+      "Turkey": "enemy",
+      "United States": "friend"
+    },
+    "ISIS": {
+      "Israel": "enemy",
+      "Palestinian Authority": "enemy",
+      "Saudi Arabia": "enemy",
+      "Syria": "enemy",
+      "Turkey": "enemy",
+      "United States": "enemy"
+    },
+    "Israel": {
+      "Palestinian Authority": "enemy",
+      "Saudi Arabia": "complicated",
+      "Syria": "enemy",
+      "Turkey": "complicated",
+      "United States": "friend"
+    },
+    "Palestinian Authority": {
+      "Syria": "complicated",
+      "Turkey": "friend",
+      "Saudi Arabia": "friend",
+      "United States": "complicated"
+    },
+    "Syria": {
+      "Turkey": "enemy",
+      "Saudi Arabia": "enemy",
+      "United States": "enemy"
+    },
+    "Turkey": {
+      "Saudi Arabia": "complicated",
+      "United States": "complicated"
+    },
+    "Saudi Arabia": {
+      "United States": "friend"
+    }
+  }
+}

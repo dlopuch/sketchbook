@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta property="og:title" content="Middle East Clusters" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://sketchbook.onafloatingrock.com/middle-east-clusters" />
+  <meta property="og:image" content="http://sketchbook.onafloatingrock.com/middle-east-clusters/og.png" />
+
+  <title>Middle East Clusters</title>
+
+  <style>
+
+.node {
+  cursor: pointer;
+  fill: black;
+}
+
+.node.friend {
+  fill: green;
+}
+
+.node.complicated {
+  fill: goldenrod;
+}
+
+.node.enemy {
+  fill: red;
+}
+
+.link { stroke-width: 1.5px; }
+
+.link.friend      { stroke: green;      opacity: 1.0; }
+.link.enemy       { stroke: red;        opacity: 0.2; }
+.link.complicated { stroke: Goldenrod;  opacity: 0.3; }
+
+.link.outfocus { stroke-width: 1px; stroke-dasharray: 5 }
+.link.outfocus.friend      { stroke: green;      opacity: 0.5; }
+.link.outfocus.enemy       { stroke: red;        opacity: 0.1; }
+.link.outfocus.complicated { stroke: Goldenrod;  opacity: 0.2; }
+
+.link.outfocus {
+  stroke: grey;
+  stroke-width: 1px;
+  opacity: .5;
+
+}
+
+.entity-label {
+  animation-duration: 1s;
+  fill: black;
+}
+
+.entity-label.friend {
+  fill: green;
+}
+
+.entity-label.complicated {
+  fill: goldenrod;
+}
+
+.entity-label.enemy {
+  animation-duration: 1s;
+  fill: red;
+}
+
+</style>
+</head>
+
+<body>
+  <!-- Load sketch: load JamJS's requireJs, but reference the experiment's main.js to start your sketch -->
+  <script data-main="main"
+    src="/lib/require.js"></script>
+
+  <div id="fv">
+  </div>
+
+
+
+</body>
+</html>
+
